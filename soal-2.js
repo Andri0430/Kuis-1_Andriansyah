@@ -13,7 +13,7 @@ const makananKesukaan = () => {
     });
 }
 
-makananKesukaan();
+console.log(makananKesukaan());
 setTimeout(() => {
-    console.log(gabungHewan());
+    makananKesukaan();
 },5000);
